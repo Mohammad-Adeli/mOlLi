@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>مدیریت پرداخت</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <?php include('components/navbar.html'); ?>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">مدیریت پرداخت‌ها</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>تاریخچه پرداخت‌ها</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">پرداخت ۱: ۵۰ هزار تومان</li>
+                    <li class="list-group-item">پرداخت ۲: ۱۰۰ هزار تومان</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h5>پرداخت جدید</h5>
+                <form>
+                    <div class="form-group mb-3">
+                        <label for="amount">مبلغ پرداختی</label>
+                        <input type="number" id="amount" class="form-control" placeholder="مبلغ به تومان

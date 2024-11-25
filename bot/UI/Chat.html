@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>چت</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">هوش مصنوعی</a>
+            <button class="btn btn-outline-secondary ms-auto" id="toggleSidebar">منو</button>
+        </nav>
+
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-3" id="sidebar" style="display: none;">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">دیلیت اکانت</a></li>
+                    <li class="list-group-item"><a href="#">پاک کردن تاریخچه چت</a></li>
+                    <li class="list-group-item"><a href="payment.html">مدیریت پرداخت</a></li>
+                    <li class="list-group-item"><button id="toggleTheme" class="btn btn-secondary w-100">تغییر حالت</button></li>
+                </ul>
+            </div>
+            <!-- Chat Content -->
+            <div class="col">
+                <div class="chat-window p-4">
+                    <!-- Chat messages will go here -->
+                </div>
+                <form class="d-flex mt-3">
+                    <input type="text" class="form-control" placeholder="پیام خود را بنویسید...">
+                    <button class="btn btn-primary mx-2">ارسال</button>
+                    <button class="btn btn-secondary">فایل</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
